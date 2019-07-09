@@ -1,0 +1,71 @@
+Reference : http://javarevisited.blogspot.in/2011/06/top-programming-interview-questions.html
+
+1) Write code to check a String is palindrome or not?
+2) Write a method which will remove any given character from a String?
+3) Print all permutation of String both iterative and Recursive way?
+
+--------------Programming questions on Array-------------------------
+
+4) Write a function to find out longest palindrome in a given string?
+5) How to find first non repeated character of a given String?
+6) How to count occurrence of a given character in a String?
+7) How to check if two String are Anagram?
+8) How to convert numeric String to int in Java?
+9) In an array 1-100 numbers are stored, one number is missing how do you find it?
+10) In an array 1-100 exactly one number is duplicate how do you find it?
+11) In an array 1-100 multiple numbers are duplicates, how do you find it?
+12) Given two arrays, 1,2,3,4,5 and 2,3,1,0,5 find which number is not present in the second array.
+13) How do you find second highest number in an integer array?
+14) How to find all pairs in array of integers whose sum is equal to given number?
+15) How to remove duplicate elements from array in Java? 
+16) How to find largest and smallest number in array?
+17) How to find top two maximum number in array?
+
+---------------LinkedList Programming Interview Questions------------
+
+14) How do you find middle element of a linked list in single pass?
+15) How do you find 3rd element from list in single pass?
+16) How do you find if there is any loop in singly linked list? How do you find the start of the loop?
+17) How do you reverse a singly linked list?
+
+---------------Binary Tree Programming Interview Questions-----------
+
+18) How do you find depth of binary tree?
+19) Write code to print InOrder traversal of a tree?
+20) Print out all leaf node of a binary tree?
+21) Write a method in Java to check if a tree is a binary search tree or not?
+22) How to check if a tree is balanced or not in Java?
+
+---------------Programming Questions on Searching and Sorting--------
+
+23) Write a program to sort numbers in place using quick sort ?
+24) Write a program to implement binary search algorithm in Java 
+25) How do you sort Java object using Comparator?
+26) Write code to implement Insertion Sort in Java?
+27) Write code to implement Bubble Sort in Java?
+
+--------------Programming Questions on Numbers-----------------------
+
+26) Write code to check whether a no is power of two or not?
+27) Write a program to check whether a number is palindrome or not?
+28) Write code to check whether an integer is Armstrong number or not?
+29) Write a program to find all prime number up to a given numbers?
+30) Write function to compute Nth Fibonacci number? Both iterative and recursive?
+31) How to check if a number is binary?
+32) How to reverse an integer in Java?
+33) How to count number of set bits in given integer
+34) How to find sum of digits of a number using recursion?
+35) How to swap two numbers without using temp variable?
+36) How to find largest of three integers in Java?
+37) Write a program to find prime factors of integer?
+38) How to add two integer without using arithmetic operator?
+
+-------------General Programming Interview Questions-----------------
+
+31) Write a program to find out if two rectangles R1 and R2 are overlapping?
+32) You need to write a function to climb n steps you can climb either 1 step at a time or 2 steps a time, write a function to return number of ways to climb a ladder with n step.
+33) Write code for Generate Random No in a range from min to max?
+34) Write program for word-wrap which should work on any screen size?
+35) Design an algorithm to find the frequency of occurrence of a word in an article?
+36) Write a program to implement blocking queue in Java?
+37) Write a program for producer-consumer problem?

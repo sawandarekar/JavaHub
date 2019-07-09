@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">jdbc:postgresql:TestData</property>
+		<property name="connection.username">postgres</property>
+		<property name="connection.password">tomtom</property>
+  		<property name="default_schema">SpringHibernateData</property>
+		<!-- SpringHibernateData -->
+
+		<mapping resource="Vehicle.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>
