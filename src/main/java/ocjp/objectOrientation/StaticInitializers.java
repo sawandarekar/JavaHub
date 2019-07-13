@@ -17,4 +17,8 @@ public class StaticInitializers {
         System.out.println("b: " + b);
     }
 
+    public synchronized static void getData(){
+
+    }
+
 }
