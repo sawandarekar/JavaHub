@@ -1,14 +1,14 @@
 package ocjp.objectOrientation;
 
 public class DefaultValuesTest {
-    boolean bln;
-    byte b; // The byte data type is an 8-bit signed two's complement integer; minimum: -128 and maximum: 127 (inclusive)
-    short s; //The short data type is a 16-bit signed two's complement integer; minimum: -32,768 and maximum: 32,767 (inclusive)
-    int i; //the int data type is a 32-bit signed two's complement integer; minimum value of -231 and maximum value of 231-1
-    long l; // type is a 64-bit two's complement integer; minimum: -263 and maximum: 263-1
-    float f; // data type is a single-precision 32-bit IEEE 754 floating point; Its range of values is beyond the scope of this discussion
-    double d;//Its range of values is beyond the scope of this discussion
-    char c;//The char data type is a single 16-bit Unicode character; minimum: '\u0000' (or 0) and maximum: '\uffff' (or 65,535 inclusive).
+    private boolean bln;
+    private byte b; // The byte data type is an 8-bit signed two's complement integer; minimum: -128 and maximum: 127 (inclusive)
+    private short s; //The short data type is a 16-bit signed two's complement integer; minimum: -32,768 and maximum: 32,767 (inclusive)
+    private int i; //the int data type is a 32-bit signed two's complement integer; minimum value of -231 and maximum value of 231-1
+    private long l; // type is a 64-bit two's complement integer; minimum: -263 and maximum: 263-1
+    private float f; // data type is a single-precision 32-bit IEEE 754 floating point; Its range of values is beyond the scope of this discussion
+    private double d;//Its range of values is beyond the scope of this discussion
+    private char c;//The char data type is a single 16-bit Unicode character; minimum: '\u0000' (or 0) and maximum: '\uffff' (or 65,535 inclusive).
     String[] arr;
 
     public static void main(String[] args) {
