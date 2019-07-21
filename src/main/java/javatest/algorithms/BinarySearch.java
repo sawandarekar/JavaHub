@@ -12,7 +12,7 @@ public class BinarySearch {
         final BinarySearch algorithm = new BinarySearch();
         final boolean present = algorithm.searchItem(searchArray, searchItem);
         if (!present) {
-            System.out.println("Item not Exsit:");
+            System.out.println("Item not Exist:");
         }
     }
 
