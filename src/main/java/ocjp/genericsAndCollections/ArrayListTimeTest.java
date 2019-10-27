@@ -17,6 +17,7 @@ public class ArrayListTimeTest {
     public static void withoutSize_ArrayListTest() {
         final Date start = new Date();
         final ArrayList<Object> testArrayList = new ArrayList<>();
+        testArrayList.add(4,"sdf");
         for (int i = 0; i < 10000000; i++) {
             testArrayList.add(new innerClass("asdfsd", "bsdfsdfsd", "casfsadfs"));
         }

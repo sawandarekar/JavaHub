@@ -8,7 +8,7 @@ public class BinarySearch {
 
     public static void main(final String[] args) {
         final int[] searchArray = {10, 14, 19, 26, 27, 31, 33, 35, 42, 44, 67};
-        final int searchItem = 19;
+        final int searchItem = 10;
         final BinarySearch algorithm = new BinarySearch();
         final boolean present = algorithm.searchItem(searchArray, searchItem);
         if (!present) {
@@ -40,7 +40,7 @@ public class BinarySearch {
             final int middle = (lowBound + highBound) / 2;
             System.out.println("lowBound:" + lowBound + " highBound:" + highBound + " middle:" + middle);
             if (sortedSearchArray[middle] == searchItem) {
-                System.out.println(searchItem + " Item Exsit at:" + middle);
+                System.out.println(searchItem + " Item Exist at index:" + middle);
                 itemExist = true;
                 break;
             } else if (searchItem < sortedSearchArray[middle]) {
