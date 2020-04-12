@@ -10,7 +10,11 @@ package javatest.thread_concurrency;
 public class SynchronizedExample {
 
     public static void main(String[] args) {
-
+        SynchronizedExample s = new SynchronizedExample();
+        Thread t1 = new Thread(() -> s.nonStaticSynchronized());
+        Thread t2 = new Thread(() -> s.nonStaticSynchronized_2());
+        t1.start();
+        t2.start();
     }
 
     private synchronized static void staticSynchronized() {
@@ -18,7 +22,10 @@ public class SynchronizedExample {
     }
 
     public synchronized void nonStaticSynchronized() {
-
+        System.out.println("nonStaticSynchronized");
+    }
+    public synchronized void nonStaticSynchronized_2() {
+        System.out.println("nonStaticSynchronized_2");
     }
 }
 

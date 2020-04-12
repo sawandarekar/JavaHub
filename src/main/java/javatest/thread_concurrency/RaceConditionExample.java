@@ -6,18 +6,59 @@ package javatest.thread_concurrency;
  * 
  * @author darekar
  */
-public class RaceConditionExample<T> {
+public class RaceConditionExample {
 
-    private volatile T value;
+    public static void main(String[] args) throws InterruptedException {
+        LongWrapper longWrapper = new LongWrapper(0L);
+        Runnable r = () ->{
+            for (int i = 0; i < 1_000; i++) {
+                longWrapper.increment();
+            }
+        };
 
-    T get() {
-        if (value == null) {
-            value = initialize();
+//        Thread t1 = new Thread(r);
+//        t1.start();
+//
+//        t1.join();
+//
+        Thread[] threads = new Thread[1_000];
+        for (int i = 0; i < threads.length; i++) {
+            threads[i] = new Thread(r);
+            threads[i].start();
         }
-        return value;
+        for (int i = 0; i < threads.length; i++) {
+            threads[i].join();
+        }
+
+        System.out.println("value:"+longWrapper.getVal());
     }
 
-    private T initialize() {
-        return null;
+//    private volatile T value;
+//
+//    T get() {
+//        if (value == null) {
+//            value = initialize();
+//        }
+//        return value;
+//    }
+//
+//    private T initialize() {
+//        return null;
+//    }
+}
+class LongWrapper{
+    //how to solve race condition add synchronized block
+    Object key = new Object();
+    private long l;
+    public LongWrapper(long l){
+        this.l = l;
+    }
+    public long getVal(){
+        return this.l;
+    }
+    public void increment(){
+        synchronized (key) {
+            this.l = this.l + 1;
+        }
     }
 }

@@ -15,7 +15,10 @@ enum EnumTest {
     }
 
     public static void main(String[] args) {
-        System.out.println(EnumTest.ONE.getSting());
+        EnumTest test = EnumTest.ONE;
+        System.out.println(test.getSting());
+        test = EnumTest.TWO;
+        System.out.println(test.getSting());
     }
 
 }
