@@ -18,6 +18,7 @@ public class ThreadCalling {
 class TestThread extends Thread {
 
     public TestThread() {
+        
         System.out
             .println("TestThread cunstructor: " + Thread.currentThread().getId() + " " + Thread.currentThread().getName());
     }
@@ -30,6 +31,7 @@ class TestThread extends Thread {
     public void func1() {
         System.out.println("Test Thread func1: " + Thread.currentThread().getId() + " " + Thread.currentThread().getName());
         // start(); //"main" java.lang.IllegalThreadStateException
+
     }
 }
 
