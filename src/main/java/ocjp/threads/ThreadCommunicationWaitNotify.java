@@ -2,7 +2,7 @@ package ocjp.threads;
 
 import java.util.Date;
 
-public class ThreadCommunication {
+public class ThreadCommunicationWaitNotify {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println(Thread.currentThread().getName() + ":Start. Time = " + new Date());

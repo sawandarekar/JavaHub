@@ -3,7 +3,7 @@ package javatest.thread_concurrency;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * volatile solves the problem of visibility, and makes changes of the variable’s value to be atomic, because there is a happens-before
+ * volatile solves the problem of visibility, and makes changes of the variableï¿½s value to be atomic, because there is a happens-before
  * relationship: write to a volatile variable happens before any subsequent read from the volatile variable. Therefore, it guarantees that
  * any subsequent reads of the field will see the value, which was set by the most recent write.
  * 
