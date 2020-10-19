@@ -31,7 +31,7 @@ Reference : http://javarevisited.blogspot.in/2011/06/top-programming-interview-q
 ---------------Binary Tree Programming Interview Questions-----------
 
 18) How do you find depth of binary tree?
-19) Write code to print InOrder traversal of a tree?
+19) Write code to print program.Trees.InOrder traversal of a tree?
 20) Print out all leaf node of a binary tree?
 21) Write a method in Java to check if a tree is a binary search tree or not?
 22) How to check if a tree is balanced or not in Java?

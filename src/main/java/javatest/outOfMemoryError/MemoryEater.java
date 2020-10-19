@@ -1,4 +1,4 @@
-package javatest.memory;
+package javatest.outOfMemoryError;
 
 import java.util.Vector;
 

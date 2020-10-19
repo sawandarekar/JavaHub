@@ -1,5 +1,6 @@
 package puzzlers;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -18,7 +19,11 @@ public class ListStreamBindingTest {
         List<String> ls1 = Arrays.asList("one");
         es.submit(() -> Files.write(Paths.get("path"), ls1));
         es.submit(()-> {
-            Files.write(Paths.get("path"), ls1);
+            try {
+                Files.write(Paths.get("path"), ls1);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         });
 
 
