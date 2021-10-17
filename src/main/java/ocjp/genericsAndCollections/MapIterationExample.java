@@ -16,6 +16,7 @@ public class MapIterationExample {
         map.put("4", "Apr");
         map.put("5", "May");
         map.put("6", "Jun");
+        System.out.println("map:"+map);
         final MapIterationExample example = new MapIterationExample();
         example.mapEntryIterator(map);
         example.mapKeySet(map);
